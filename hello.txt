@@ -21,4 +21,9 @@ hot-fix上进行的是增加了hello.txt的内容
 来到master分支
 执行 git merge 分支名
 例如 git merge fix-hot
+-------------------推送到远程库------------
+查看别名：git remote / git remote -v
+创建别名 git remote add 别名 远程库连接  例如 git remote add git-demo 远程库连接
+推送到远程库 git push 别名 分支名        例如 git push git-demo master
+
 
